@@ -1,0 +1,67 @@
+{
+  "id" : "https://hadro.github.io/jwst/images/manifest.json",
+  "label" : {
+    "en" : [ "All images loaded in hadro/jwst project" ]
+  },
+  "type" : "Manifest",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "width" : 3840,
+    "id" : "https://hadro.github.io/jwst/images/Exoplanet_WASP96_b/canvas/",
+    "label" : {
+      "none" : [ "Exoplanet_WASP96_b" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://hadro.github.io/jwst/images/Exoplanet_WASP96_b/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://hadro.github.io/jwst/images/Exoplanet_WASP96_b/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 120,
+              "height" : 81
+            }, {
+              "width" : 240,
+              "height" : 162
+            }, {
+              "width" : 480,
+              "height" : 323
+            }, {
+              "width" : 960,
+              "height" : 646
+            }, {
+              "width" : 1920,
+              "height" : 1292
+            }, {
+              "width" : 3840,
+              "height" : 2583
+            } ],
+            "profile" : "level0",
+            "width" : 3840,
+            "id" : "https://hadro.github.io/jwst/images/Exoplanet_WASP96_b",
+            "type" : "ImageService3",
+            "@context" : "http://iiif.io/api/image/3/context.json",
+            "height" : 2583
+          } ],
+          "format" : "image/jpeg",
+          "width" : 3840,
+          "id" : "https://hadro.github.io/jwst/images/Exoplanet_WASP96_b/full/max/0/default.jpg",
+          "type" : "Image",
+          "height" : 2583
+        },
+        "target" : "https://hadro.github.io/jwst/images/Exoplanet_WASP96_b/canvas/"
+      } ]
+    } ],
+    "height" : 2583
+  } ]
+}
