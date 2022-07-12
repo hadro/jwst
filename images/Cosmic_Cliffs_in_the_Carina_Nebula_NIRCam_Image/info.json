@@ -1,33 +1,31 @@
 {
-  "tiles" : [ {
-    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
-    "width" : 1024,
-    "height" : 1024
-  } ],
-  "protocol" : "http://iiif.io/api/image",
-  "sizes" : [ {
-    "width" : 313,
-    "height" : 181
-  }, {
-    "width" : 625,
-    "height" : 362
-  }, {
-    "width" : 1250,
-    "height" : 724
-  }, {
-    "width" : 2500,
-    "height" : 1448
-  }, {
-    "width" : 5000,
-    "height" : 2896
-  }, {
-    "width" : 10000,
-    "height" : 5791
-  } ],
-  "profile" : "level0",
-  "width" : 10000,
-  "id" : "https://hadro.github.io/jwst/images/Cosmic_Cliffs_in_the_Carina_Nebula_NIRCam_Image",
-  "type" : "ImageService3",
-  "@context" : "http://iiif.io/api/image/3/context.json",
-  "height" : 5791
+  "@context": "http://iiif.io/api/image/2/context.json",
+  "@id": "https://hadro.github.io/jwst/_“Cosmic Cliffs” in the Carina Nebula (NIRCam Image)/+tiles",
+  "profile": [
+    "http://iiif.io/api/image/2/level0.json",
+    {
+      "formats": [
+        "jpg"
+      ],
+      "qualities": [
+        "default"
+      ]
+    }
+  ],
+  "protocol": "http://iiif.io/api/image",
+  "tiles": [
+    {
+      "scaleFactors": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32
+      ],
+      "width": 256
+    }
+  ],
+  "width": 14575,
+  "height": 8441
 }

@@ -1,33 +1,31 @@
 {
-  "tiles" : [ {
-    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
-    "width" : 1024,
-    "height" : 1024
-  } ],
-  "protocol" : "http://iiif.io/api/image",
-  "sizes" : [ {
-    "width" : 241,
-    "height" : 231
-  }, {
-    "width" : 482,
-    "height" : 462
-  }, {
-    "width" : 963,
-    "height" : 923
-  }, {
-    "width" : 1925,
-    "height" : 1846
-  }, {
-    "width" : 3850,
-    "height" : 3691
-  }, {
-    "width" : 7700,
-    "height" : 7382
-  } ],
-  "profile" : "level0",
-  "width" : 7700,
-  "id" : "https://hadro.github.io/jwst/images/Stephans_Quintet_NIRCam_and_MIRI_Composite_Image",
-  "type" : "ImageService3",
-  "@context" : "http://iiif.io/api/image/3/context.json",
-  "height" : 7382
+  "@context": "http://iiif.io/api/image/2/context.json",
+  "@id": "https://hadro.github.io/jwst/_Stephan's Quintet (NIRCam and MIRI Composite Image)/+tiles",
+  "profile": [
+    "http://iiif.io/api/image/2/level0.json",
+    {
+      "formats": [
+        "jpg"
+      ],
+      "qualities": [
+        "default"
+      ]
+    }
+  ],
+  "protocol": "http://iiif.io/api/image",
+  "tiles": [
+    {
+      "scaleFactors": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32
+      ],
+      "width": 256
+    }
+  ],
+  "width": 12654,
+  "height": 12132
 }
