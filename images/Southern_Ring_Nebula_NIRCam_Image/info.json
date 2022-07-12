@@ -1,0 +1,33 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 152,
+    "height" : 141
+  }, {
+    "width" : 303,
+    "height" : 282
+  }, {
+    "width" : 605,
+    "height" : 563
+  }, {
+    "width" : 1209,
+    "height" : 1126
+  }, {
+    "width" : 2417,
+    "height" : 2251
+  }, {
+    "width" : 4833,
+    "height" : 4501
+  } ],
+  "profile" : "level0",
+  "width" : 4833,
+  "id" : "https://hadro.github.io/jwst/images/Southern_Ring_Nebula_NIRCam_Image",
+  "type" : "ImageService3",
+  "@context" : "http://iiif.io/api/image/3/context.json",
+  "height" : 4501
+}
