@@ -6,6 +6,64 @@
   "type" : "Manifest",
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
+    "width" : 4537,
+    "id" : "https://hadro.github.io/jwst/images/Webb_First_Deep_Field_NIRCam_Image/canvas/",
+    "label" : {
+      "none" : [ "Webb_First_Deep_Field_NIRCam_Image" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://hadro.github.io/jwst/images/Webb_First_Deep_Field_NIRCam_Image/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://hadro.github.io/jwst/images/Webb_First_Deep_Field_NIRCam_Image/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 142,
+              "height" : 145
+            }, {
+              "width" : 284,
+              "height" : 290
+            }, {
+              "width" : 568,
+              "height" : 579
+            }, {
+              "width" : 1135,
+              "height" : 1158
+            }, {
+              "width" : 2269,
+              "height" : 2315
+            }, {
+              "width" : 4537,
+              "height" : 4630
+            } ],
+            "profile" : "level0",
+            "width" : 4537,
+            "id" : "https://hadro.github.io/jwst/images/Webb_First_Deep_Field_NIRCam_Image",
+            "type" : "ImageService3",
+            "@context" : "http://iiif.io/api/image/3/context.json",
+            "height" : 4630
+          } ],
+          "format" : "image/jpeg",
+          "width" : 4537,
+          "id" : "https://hadro.github.io/jwst/images/Webb_First_Deep_Field_NIRCam_Image/full/max/0/default.jpg",
+          "type" : "Image",
+          "height" : 4630
+        },
+        "target" : "https://hadro.github.io/jwst/images/Webb_First_Deep_Field_NIRCam_Image/canvas/"
+      } ]
+    } ],
+    "height" : 4630
+  }, {
     "width" : 3840,
     "id" : "https://hadro.github.io/jwst/images/Exoplanet_WASP96_b/canvas/",
     "label" : {
