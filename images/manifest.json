@@ -1,25 +1,11 @@
 {
   "id" : "https://hadro.github.io/jwst/images/manifest.json",
   "label" : {
-    "en" : [ "All images loaded in hadro/jwst project" ]
+    "en" : [ "First JWST image release" ]
   },
   "type" : "Manifest",
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
-    "width" : 7700,
-    "id" : "https://hadro.github.io/jwst/images/Stephans_Quintet_NIRCam_and_MIRI_Composite_Image/canvas/",
-    "label" : {
-      "none" : [ "Stephans_Quintet_NIRCam_and_MIRI_Composite_Image" ]
-    },
-    "type" : "Canvas",
-    "items" : [ {
-    "width" : 4833,
-    "id" : "https://hadro.github.io/jwst/images/Southern_Ring_Nebula_NIRCam_Image/canvas/",
-    "label" : {
-      "none" : [ "Southern_Ring_Nebula_NIRCam_Image" ]
-    },
-    "type" : "Canvas",
-    "items" : [ {
     "width" : 4537,
     "id" : "https://hadro.github.io/jwst/images/Webb_First_Deep_Field_NIRCam_Image/canvas/",
     "label" : {
@@ -78,6 +64,13 @@
     } ],
     "height" : 4630
   }, {
+    "width" : 4833,
+    "id" : "https://hadro.github.io/jwst/images/Southern_Ring_Nebula_NIRCam_Image/canvas/",
+    "label" : {
+      "none" : [ "Southern_Ring_Nebula_NIRCam_Image" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
       "id" : "https://hadro.github.io/jwst/images/Southern_Ring_Nebula_NIRCam_Image/AnnoPage/",
       "type" : "AnnotationPage",
       "items" : [ {
