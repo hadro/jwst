@@ -6,64 +6,6 @@
   "type" : "Manifest",
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
-    "width" : 10000,
-    "id" : "https://hadro.github.io/jwst/images/Cosmic_Cliffs_in_the_Carina_Nebula_NIRCam_Image/canvas/",
-    "label" : {
-      "none" : [ "Cosmic_Cliffs_in_the_Carina_Nebula_NIRCam_Image" ]
-    },
-    "type" : "Canvas",
-    "items" : [ {
-      "id" : "https://hadro.github.io/jwst/images/Cosmic_Cliffs_in_the_Carina_Nebula_NIRCam_Image/AnnoPage/",
-      "type" : "AnnotationPage",
-      "items" : [ {
-        "motivation" : "Painting",
-        "id" : "https://hadro.github.io/jwst/images/Cosmic_Cliffs_in_the_Carina_Nebula_NIRCam_Image/annotation/",
-        "type" : "Annotation",
-        "body" : {
-          "service" : [ {
-            "tiles" : [ {
-              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
-              "width" : 1024,
-              "height" : 1024
-            } ],
-            "protocol" : "http://iiif.io/api/image",
-            "sizes" : [ {
-              "width" : 313,
-              "height" : 181
-            }, {
-              "width" : 625,
-              "height" : 362
-            }, {
-              "width" : 1250,
-              "height" : 724
-            }, {
-              "width" : 2500,
-              "height" : 1448
-            }, {
-              "width" : 5000,
-              "height" : 2896
-            }, {
-              "width" : 10000,
-              "height" : 5791
-            } ],
-            "profile" : "level0",
-            "width" : 10000,
-            "id" : "https://hadro.github.io/jwst/images/Cosmic_Cliffs_in_the_Carina_Nebula_NIRCam_Image",
-            "type" : "ImageService3",
-            "@context" : "http://iiif.io/api/image/3/context.json",
-            "height" : 5791
-          } ],
-          "format" : "image/jpeg",
-          "width" : 10000,
-          "id" : "https://hadro.github.io/jwst/images/Cosmic_Cliffs_in_the_Carina_Nebula_NIRCam_Image/full/max/0/default.jpg",
-          "type" : "Image",
-          "height" : 5791
-        },
-        "target" : "https://hadro.github.io/jwst/images/Cosmic_Cliffs_in_the_Carina_Nebula_NIRCam_Image/canvas/"
-      } ]
-    } ],
-    "height" : 5791
-  }, {
     "width" : 7700,
     "id" : "https://hadro.github.io/jwst/images/Stephans_Quintet_NIRCam_and_MIRI_Composite_Image/canvas/",
     "label" : {
@@ -71,57 +13,6 @@
     },
     "type" : "Canvas",
     "items" : [ {
-      "id" : "https://hadro.github.io/jwst/images/Stephans_Quintet_NIRCam_and_MIRI_Composite_Image/AnnoPage/",
-      "type" : "AnnotationPage",
-      "items" : [ {
-        "motivation" : "Painting",
-        "id" : "https://hadro.github.io/jwst/images/Stephans_Quintet_NIRCam_and_MIRI_Composite_Image/annotation/",
-        "type" : "Annotation",
-        "body" : {
-          "service" : [ {
-            "tiles" : [ {
-              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
-              "width" : 1024,
-              "height" : 1024
-            } ],
-            "protocol" : "http://iiif.io/api/image",
-            "sizes" : [ {
-              "width" : 241,
-              "height" : 231
-            }, {
-              "width" : 482,
-              "height" : 462
-            }, {
-              "width" : 963,
-              "height" : 923
-            }, {
-              "width" : 1925,
-              "height" : 1846
-            }, {
-              "width" : 3850,
-              "height" : 3691
-            }, {
-              "width" : 7700,
-              "height" : 7382
-            } ],
-            "profile" : "level0",
-            "width" : 7700,
-            "id" : "https://hadro.github.io/jwst/images/Stephans_Quintet_NIRCam_and_MIRI_Composite_Image",
-            "type" : "ImageService3",
-            "@context" : "http://iiif.io/api/image/3/context.json",
-            "height" : 7382
-          } ],
-          "format" : "image/jpeg",
-          "width" : 7700,
-          "id" : "https://hadro.github.io/jwst/images/Stephans_Quintet_NIRCam_and_MIRI_Composite_Image/full/max/0/default.jpg",
-          "type" : "Image",
-          "height" : 7382
-        },
-        "target" : "https://hadro.github.io/jwst/images/Stephans_Quintet_NIRCam_and_MIRI_Composite_Image/canvas/"
-      } ]
-    } ],
-    "height" : 7382
-  }, {
     "width" : 4833,
     "id" : "https://hadro.github.io/jwst/images/Southern_Ring_Nebula_NIRCam_Image/canvas/",
     "label" : {
