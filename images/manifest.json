@@ -6,6 +6,64 @@
   "type" : "Manifest",
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
+    "width" : 6317,
+    "id" : "https://hadro.github.io/jwst/images/Webb_First_Deep_Field_MIRI_and_NIRCam_Images_Side_by_Side/canvas/",
+    "label" : {
+      "none" : [ "Webb_First_Deep_Field_MIRI_and_NIRCam_Images_Side_by_Side" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://hadro.github.io/jwst/images/Webb_First_Deep_Field_MIRI_and_NIRCam_Images_Side_by_Side/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://hadro.github.io/jwst/images/Webb_First_Deep_Field_MIRI_and_NIRCam_Images_Side_by_Side/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 198,
+              "height" : 135
+            }, {
+              "width" : 395,
+              "height" : 269
+            }, {
+              "width" : 790,
+              "height" : 537
+            }, {
+              "width" : 1580,
+              "height" : 1074
+            }, {
+              "width" : 3159,
+              "height" : 2148
+            }, {
+              "width" : 6317,
+              "height" : 4295
+            } ],
+            "profile" : "level0",
+            "width" : 6317,
+            "id" : "https://hadro.github.io/jwst/images/Webb_First_Deep_Field_MIRI_and_NIRCam_Images_Side_by_Side",
+            "type" : "ImageService3",
+            "@context" : "http://iiif.io/api/image/3/context.json",
+            "height" : 4295
+          } ],
+          "format" : "image/jpeg",
+          "width" : 6317,
+          "id" : "https://hadro.github.io/jwst/images/Webb_First_Deep_Field_MIRI_and_NIRCam_Images_Side_by_Side/full/max/0/default.jpg",
+          "type" : "Image",
+          "height" : 4295
+        },
+        "target" : "https://hadro.github.io/jwst/images/Webb_First_Deep_Field_MIRI_and_NIRCam_Images_Side_by_Side/canvas/"
+      } ]
+    } ],
+    "height" : 4295
+  }, {
     "width" : 4537,
     "id" : "https://hadro.github.io/jwst/images/Webb_First_Deep_Field_NIRCam_Image/canvas/",
     "label" : {
