@@ -6,6 +6,64 @@
   "type" : "Manifest",
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
+    "width" : 4833,
+    "id" : "https://hadro.github.io/jwst/images/Southern_Ring_Nebula_NIRCam_Image/canvas/",
+    "label" : {
+      "none" : [ "Southern_Ring_Nebula_NIRCam_Image" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://hadro.github.io/jwst/images/Southern_Ring_Nebula_NIRCam_Image/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://hadro.github.io/jwst/images/Southern_Ring_Nebula_NIRCam_Image/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 152,
+              "height" : 141
+            }, {
+              "width" : 303,
+              "height" : 282
+            }, {
+              "width" : 605,
+              "height" : 563
+            }, {
+              "width" : 1209,
+              "height" : 1126
+            }, {
+              "width" : 2417,
+              "height" : 2251
+            }, {
+              "width" : 4833,
+              "height" : 4501
+            } ],
+            "profile" : "level0",
+            "width" : 4833,
+            "id" : "https://hadro.github.io/jwst/images/Southern_Ring_Nebula_NIRCam_Image",
+            "type" : "ImageService3",
+            "@context" : "http://iiif.io/api/image/3/context.json",
+            "height" : 4501
+          } ],
+          "format" : "image/jpeg",
+          "width" : 4833,
+          "id" : "https://hadro.github.io/jwst/images/Southern_Ring_Nebula_NIRCam_Image/full/max/0/default.jpg",
+          "type" : "Image",
+          "height" : 4501
+        },
+        "target" : "https://hadro.github.io/jwst/images/Southern_Ring_Nebula_NIRCam_Image/canvas/"
+      } ]
+    } ],
+    "height" : 4501
+  }, {
     "width" : 6317,
     "id" : "https://hadro.github.io/jwst/images/Webb_First_Deep_Field_MIRI_and_NIRCam_Images_Side_by_Side/canvas/",
     "label" : {
